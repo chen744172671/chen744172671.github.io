@@ -76,15 +76,15 @@ author:
       url: "https://www.nintendo.co.jp/"
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
+    - label: "中国专业IT社区"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
+      url: "https://www.csdn.net/"
+    - label: "菜鸟教程"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://www.runoob.com/"
+    - label: "在线协作"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.processon.com/"
 
 defaults:
   # _posts
