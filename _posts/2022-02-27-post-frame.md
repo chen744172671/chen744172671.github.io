@@ -17,7 +17,8 @@ categories:
 			事务传播机制，7个机制：required(默认，支持当前事务)，requires_new(创建一个新的事务并挂起当前事务)，
 			nested(如果存在事务则嵌套事务内执行，不存在事务则相当于required)
 	SpringMvc
-		执行流程：前端控制器DispatcherServlet-->处理器映射器HandlerMapping-->Handler-->处理器适配器HandlerAdaper-->视图解析器ViewResolver-->View
+		执行流程：前端控制器DispatcherServlet-->处理器映射器HandlerMapping-->Handler-->
+		处理器适配器HandlerAdaper-->视图解析器ViewResolver-->View
 	SpringBoot
 		简化Spring应用程序的创建和开发过程
 		抛弃了xml文件匹配文件，采用默认配置以及反射和注解
@@ -34,7 +35,8 @@ categories:
 		打印类的详细信息 sc -d demo.MathGame；用ognl查看修改内存中变量的值 watch com.taobao.container.Test test "params[0]" 、
 		watch com.taobao.container.Test test "{params}" "params[0].{? #this.name == null }.size()>0" -x 2
 	dubbo
-		服务注册中心Zookeeper、服务治理、服务之间的通信用的RPC(接口强依赖性，但是采用Netty的nio速度快)、客户端和服务器是JAVA接口之间的调用
+		服务注册中心Zookeeper、服务治理、服务之间的通信用的RPC(接口强依赖性，
+		但是采用Netty的nio速度快)、客户端和服务器是JAVA接口之间的调用
 	Zookeeper
 		原子广播
 		谁先启动谁当Leader，需要超过半数
