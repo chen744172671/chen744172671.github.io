@@ -12,14 +12,10 @@ tags:
 我对这个行业的评价：
 
 ```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+努力学习
 ```
 
-阅读更多的细节 [Jekyll docs][jekyll-docs].
+更多的细节 [bing][bing-url].
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
+[bing-url]: https://cn.bing.com/
 
