@@ -10,7 +10,8 @@ categories:
 
 	单例懒汉模式
 		线程不安全
-		使用双重检查锁：volatile(可以避免某个线程获取到其他线程没有初始化完成的对象 private volatile static Singleton singleton)，在同步代码块前面再加一次判空操作
+		使用双重检查锁：volatile(可以避免某个线程获取到其他线程没有初始化完成的对象 
+		private volatile static Singleton singleton)，在同步代码块前面再加一次判空操作
 	适配器模式
 		对接口进行适配以满足不同的功能
 	工厂模式
