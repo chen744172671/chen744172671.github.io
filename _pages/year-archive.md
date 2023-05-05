@@ -1,6 +1,6 @@
 ---
 title: "文章"
 permalink: /posts/
-layout: 文章
+layout: posts
 author_profile: true
 ---
