@@ -1,6 +1,6 @@
 ---
 title: "目录"
-layout: categories
+layout: 目录
 permalink: /categories/
 author_profile: true
 ---
