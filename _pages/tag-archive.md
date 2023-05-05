@@ -1,6 +1,6 @@
 ---
 title: "标签"
 permalink: /tags/
-layout: tags
+layout: 标签
 author_profile: true
 ---
