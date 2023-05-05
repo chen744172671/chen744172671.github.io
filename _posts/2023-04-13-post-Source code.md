@@ -3,7 +3,7 @@ title: "JVM"
 date: 2023-04-13 13:35:03-23:00
 last_modified_at: 2023-05-04 21:50:09-23:00
 categories:
-  - JVM
+  - JAVA
 ---
 
 JVM:
