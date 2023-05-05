@@ -2,7 +2,7 @@
 title: "欢迎您来到我的博客!"
 date: 2022-08-18T10:39:23-12:00
 categories:
-  - blog
+  - Blog
 tags:
   - chenht
 ---
