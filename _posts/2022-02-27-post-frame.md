@@ -14,7 +14,8 @@ categories:
 		AOP(面向切面编程)
 		事务
 			@Transactional注解只能应用到 public 可见度的方法，主事务-子事务
-			事务传播机制，7个机制：required(默认，支持当前事务)，requires_new(创建一个新的事务并挂起当前事务)，nested(如果存在事务则嵌套事务内执行，不存在事务则相当于required)
+			事务传播机制，7个机制：required(默认，支持当前事务)，requires_new(创建一个新的事务并挂起当前事务)，
+			nested(如果存在事务则嵌套事务内执行，不存在事务则相当于required)
 	SpringMvc
 		执行流程：前端控制器DispatcherServlet-->处理器映射器HandlerMapping-->Handler-->处理器适配器HandlerAdaper-->视图解析器ViewResolver-->View
 	SpringBoot
@@ -29,7 +30,9 @@ categories:
 	阿里热部署Arthas（阿尔萨斯）
 		#### 获取arthas全量包 并 启动arthas
 		sc -d cn.ffcs.controller.GroupController | grep classLoader retransform /home/ctffview/GroupController.class
-		查看 dashboard  thread 1 查具体线程信息；thread -b 查堵塞线程；jad *** 反编译代码cn.ffcs.controller.GroupController；打印类的详细信息 sc -d demo.MathGame；用ognl查看修改内存中变量的值 watch com.taobao.container.Test test "params[0]" 、watch com.taobao.container.Test test "{params}" "params[0].{? #this.name == null }.size()>0" -x 2
+		查看 dashboard  thread 1 查具体线程信息；thread -b 查堵塞线程；jad *** 反编译代码cn.ffcs.controller.GroupController；
+		打印类的详细信息 sc -d demo.MathGame；用ognl查看修改内存中变量的值 watch com.taobao.container.Test test "params[0]" 、
+		watch com.taobao.container.Test test "{params}" "params[0].{? #this.name == null }.size()>0" -x 2
 	dubbo
 		服务注册中心Zookeeper、服务治理、服务之间的通信用的RPC(接口强依赖性，但是采用Netty的nio速度快)、客户端和服务器是JAVA接口之间的调用
 	Zookeeper
