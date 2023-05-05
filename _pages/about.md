@@ -1,6 +1,5 @@
 ---
 permalink: /about/
-layout: about
 title: "关于"
 ---
 
